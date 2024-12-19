@@ -1,0 +1,32 @@
+{
+  "name": "mini-dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc --noEmit",
+    "serve": "vite preview",
+    "start": "vite"
+  },
+  "dependencies": {
+    "@tanstack/react-form": "^0.40.4",
+    "@tanstack/react-query": "^5.62.3",
+    "@tanstack/react-query-devtools": "^5.62.3",
+    "@tanstack/react-router": "^1.91.2",
+    "@tanstack/router-devtools": "^1.91.2",
+    "@tanstack/router-plugin": "^1.91.1",
+    "@tanstack/zod-form-adapter": "^0.40.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "redaxios": "^0.5.1",
+    "vite-plugin-svgr": "^4.3.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  }
+}
